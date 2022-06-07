@@ -23,9 +23,42 @@ body{
     margin: 0%;    
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: fuchsia;
+}
+
+a:active{
+    color: powderblue;
+}
+
+a:visited{
+    color: forestgreen;
+}
+
+.button{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: powderblue;
+    color: #333;
+}
+
 .container{
     width: 80%;
     margin: auto;
+}
+
+.clr{
+    clear: both;
 }
 
 .box-1{
@@ -72,4 +105,81 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     word-spacing: 0.1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+   /* list-style-image: url('../CSS Cheatsheet/images/images.png') ;*/
+   
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px ;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 10px 15px;
+    border: none;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-bar{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 15px;
+    box-sizing: border-box;
 }
