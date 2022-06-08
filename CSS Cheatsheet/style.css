@@ -168,7 +168,7 @@ a:visited{
     box-sizing: border-box;
 }
 
-#main-bar{
+#main-block{
     float: left;
     width: 70%;
     padding: 15px;
@@ -182,4 +182,51 @@ a:visited{
     color: #f4f4f4;
     padding: 15px;
     box-sizing: border-box;
+}
+
+.p-box{
+    color: black;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #333;
+    margin-top: 30px;
+    
+    position: relative;
+    background-image: url('../CSS Cheatsheet/images/images.png');
+    background-position: 100px 200px;
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+.p-box h2{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.p-box h3{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background-color: rgb(25, 233, 188);
+}
+
+.my-list li:last-child{
+    background-color: rgb(84, 215, 238);
+}
+
+.my-list li:nth-child(5){
+    background-color: rgb(204, 32, 133);
+}
+
+.my-list li:nth-child(even){
+    background-color: rgb(195, 66, 228);
 }
